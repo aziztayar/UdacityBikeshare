@@ -29,7 +29,7 @@ def get_filters():
     
     while True:
         month = input('\nPlease enter a month:\n').lower()
-        if month in ["january", "february", "march", "april", "may", "june"]:
+        if month in ["january", "february", "march", "april", "may", "june", "all"]:
             break
         else:
             print('\nInvalid input, try again!\n')
